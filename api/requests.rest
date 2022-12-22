@@ -1,0 +1,17 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "pica"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/639a362cb6953acf2cec48de
+
+###
+PUT http://localhost:3001/todo/complete/639a3659b6953acf2cec48e1
